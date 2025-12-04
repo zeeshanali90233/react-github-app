@@ -1,16 +1,32 @@
-# React + Vite
+# GitHub Repository Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive React application that lets you search for GitHub repositories using the GitHub API.
 
-Currently, two official plugins are available:
+## What Does This App Do?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app allows you to:
 
-## React Compiler
+- **Search GitHub Repositories**: Enter any search term to find related repositories on GitHub
+- **View Repository Details**: See key information including:
+  - Repository name and owner
+  - Description
+  - Star count ⭐
+  - Fork count 🍴
+  - Primary programming language 💻
+  - Owner's avatar
+- **Quick Access**: Click on any repository to open it directly on GitHub
+- **Default Results**: On page load, you'll see popular React repositories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Use
 
-## Expanding the ESLint configuration
+1. Enter a search term in the search box (e.g., "javascript", "python", "machine-learning")
+2. Click the "Search" button or press Enter
+3. Browse through the results
+4. Click on any repository name to visit it on GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React (with Hooks)
+- Vite
+- Tailwind CSS (for styling)
+- GitHub REST API
